@@ -1,0 +1,685 @@
+:root {
+  --op: 'Open Sans', sans-serif;
+  --pp: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap");
+}
+
+@font-face {
+  font-family: 'Open Sans', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+}
+
+.tombolBesar {
+  color: white;
+}
+
+.tombolBesar:hover {
+  background-color: #ff4242;
+  border: none;
+  color: white;
+}
+
+.tombolBesar:active {
+  background-color: #00192e;
+  border: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 2em;
+  margin-top: 2em;
+}
+
+nav img {
+  width: 33%;
+}
+
+nav img.img-thumbnail {
+  border: none;
+}
+
+nav .btn {
+  border: 1px solid #ff8fd8;
+  color: #ff8fd8;
+  font-family: var(--op);
+  font-weight: 600;
+  font-size: .5rem;
+}
+
+nav .btn:hover {
+  border: 1px solid #ff4242;
+  color: #ff4242;
+}
+
+section.firstSection {
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section.firstSection h1 {
+  text-align: center;
+  width: 85%;
+  font-family: var(--pp);
+  font-weight: 700;
+  margin: 0 auto 20px;
+  color: #000;
+  font-size: 1.7rem;
+}
+
+section.firstSection p {
+  color: #00252e;
+  font-family: var(--op);
+  font-weight: 400;
+  width: 70%;
+  text-align: center;
+  margin: 0 auto 45px;
+  font-size: .8rem;
+}
+
+section.firstSection button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff52bf;
+  width: 47%;
+  height: 33px;
+  font-family: var(--op);
+  font-weight: 600;
+  font-size: .7rem;
+  margin: auto;
+  color: white;
+}
+
+section.secondSection {
+  margin: 70px 30px 0;
+}
+
+section.secondSection .screen-mockups {
+  margin-bottom: 50px;
+}
+
+section.secondSection .conten {
+  margin-top: 60px;
+}
+
+section.secondSection .conten .dua {
+  margin-top: 100px;
+}
+
+section.secondSection .conten .satu img,
+section.secondSection .conten .dua img {
+  width: 20%;
+}
+
+section.secondSection .conten .satu h1,
+section.secondSection .conten .dua h1 {
+  font-family: var(--pp);
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+section.secondSection .conten .satu p,
+section.secondSection .conten .dua p {
+  font-family: var(--op);
+  font-weight: 400;
+}
+
+section.thirdSection {
+  overflow-x: hidden;
+  margin-top: 150px;
+}
+
+section.thirdSection .atas-satu {
+  background-color: transparent;
+  background-position: bottom;
+  background-image: url("../images/bg-section-top-mobile-1.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 140px;
+}
+
+section.thirdSection .bawah-satu {
+  background-color: transparent;
+  background-image: url("../images/bg-section-bottom-mobile-1.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 52px;
+}
+
+section.thirdSection .conten {
+  margin: none;
+  padding-inline: 30px;
+  background-color: rgba(173, 216, 230, 0.1);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+section.thirdSection .conten .kanan h1 {
+  font-family: var(--pp);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 65px;
+}
+
+section.thirdSection .conten .kanan p {
+  color: #00252e;
+  font-family: var(--op);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+section.thirdSection .conten .kiri {
+  width: 250px;
+}
+
+section.thirdSection .conten .kiri img {
+  width: 100%;
+  height: 100%;
+}
+
+.fourthSection {
+  padding-inline: 20px;
+  margin-top: 150px;
+}
+
+.fourthSection .kanan h1 {
+  font-family: var(--pp);
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #000;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.fourthSection .kanan p {
+  width: 98%;
+  color: #00252e;
+  font-family: var(--op);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.fifthSection {
+  margin-top: 150px;
+}
+
+.fifthSection .atas-satu {
+  background-color: transparent;
+  background-position: bottom;
+  background-image: url("../images/bg-section-top-mobile-2.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 103px;
+}
+
+.fifthSection .bawah-satu {
+  background-color: transparent;
+  background-image: url("../images/bg-section-bottom-mobile-2.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 101px;
+  margin-bottom: 200px;
+}
+
+.fifthSection .conten {
+  padding-inline: 30px;
+  background-color: rgba(173, 216, 230, 0.1);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.fifthSection .conten .kanan h1 {
+  font-family: var(--pp);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.fifthSection .conten .kanan p {
+  color: #00252e;
+  font-family: var(--op);
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.fifthSection .conten .kiri {
+  width: 250px;
+}
+
+.fifthSection .conten .kiri img {
+  width: 100%;
+  height: 100%;
+}
+
+.fifthSection h1.tombolTitle {
+  margin: auto;
+  text-align: center;
+  text-align: center;
+  font-family: var(--pp);
+  font-weight: 700;
+  margin: 0 auto 20px;
+  color: #000;
+  font-size: 2rem;
+}
+
+.fifthSection button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ff52bf;
+  width: 70%;
+  height: 43px;
+  font-family: var(--op);
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 40px auto 0;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer .gambar {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("../images/bg-footer-top-mobile.svg");
+  height: 55px;
+  width: 100%;
+}
+
+footer .contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  background-color: #00252e;
+  color: white;
+  margin-top: -11px;
+  padding-top: 20px;
+  padding-inline: 30px;
+}
+
+footer .contain .kanan {
+  padding-bottom: 10px;
+}
+
+footer .contain .kanan .logoPng {
+  width: 70%;
+}
+
+footer .contain .kanan p.description {
+  font-family: var(--op);
+  font-weight: 400;
+  color: azure;
+  margin-block: 30px 50px;
+}
+
+footer .contain .kanan p.phone,
+footer .contain .kanan p.email {
+  margin-top: 30px;
+  color: white;
+  font-weight: 400;
+  font-family: var(--op);
+}
+
+footer .contain .kanan p.phone img,
+footer .contain .kanan p.email img {
+  margin-right: 25px;
+}
+
+footer .contain .kanan p:last-child {
+  margin-top: 30px;
+}
+
+footer .contain .kiri {
+  margin-bottom: 80px;
+}
+
+footer .contain .kiri h3 {
+  font-family: var(--pp);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer .contain .kiri p {
+  font-family: var(--op);
+  font-weight: 400;
+  color: azure;
+  margin-top: 30px;
+}
+
+footer .contain .kiri input {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  height: 50px;
+}
+
+footer .contain .kiri button {
+  margin-top: 30px;
+  width: 40%;
+  background-color: #ff52bf;
+  color: white;
+  font-family: var(--op);
+  font-weight: 700;
+  float: right;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  nav img {
+    width: 240px;
+    height: 39px;
+  }
+  nav img.img-thumbnail {
+    border: none;
+  }
+  nav .btn {
+    border: 1px solid #ff8fd8;
+    color: #ff8fd8;
+    font-family: var(--op);
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  section.firstSection {
+    margin-top: 200px;
+  }
+  section.firstSection h1 {
+    font-size: 3rem;
+  }
+  section.firstSection p {
+    width: 40%;
+    font-size: 1.3rem;
+  }
+  section.firstSection button {
+    line-height: 50px;
+    height: 50px;
+    width: 30%;
+    font-size: 1.2rem;
+  }
+  section.secondSection {
+    text-align: center;
+  }
+  section.secondSection .conten {
+    margin-top: 60px;
+    text-align: left;
+  }
+  section.secondSection .conten .satu,
+  section.secondSection .conten .dua {
+    margin: 0;
+  }
+  section.secondSection .conten .satu img,
+  section.secondSection .conten .dua img {
+    width: 20%;
+  }
+  section.thirdSection {
+    margin: 100px 0 0;
+  }
+  section.thirdSection .atas-satu {
+    background-color: transparent;
+    background-image: url("../images/bg-section-top-desktop-1.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 165px;
+  }
+  section.thirdSection .bawah-satu {
+    background-color: transparent;
+    background-image: url("../images/bg-section-bottom-desktop-1.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 139px;
+  }
+  section.thirdSection .conten {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-inline: 50px;
+  }
+  section.thirdSection .conten .kanan h1 {
+    font-family: var(--pp);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  section.thirdSection .conten .kanan p {
+    color: #00252e;
+    font-family: var(--op);
+    font-weight: 400;
+    width: 80%;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  section.thirdSection .conten .kiri {
+    width: 100%;
+  }
+  section.thirdSection .conten .kiri img {
+    width: 100%;
+    height: 100%;
+  }
+  .fourthSection {
+    padding-inline: 30px;
+    margin-top: 200px;
+  }
+  .fourthSection .conten {
+    padding-inline: 50px;
+  }
+  .fourthSection .conten .kanan h1 {
+    font-family: var(--pp);
+    font-weight: 700;
+    font-size: 3rem;
+    color: #000;
+    text-align: left;
+  }
+  .fourthSection .conten .kanan p {
+    width: 85%;
+    color: #00252e;
+    font-family: var(--op);
+    font-weight: 400;
+    width: 80%;
+    font-size: 1.1rem;
+    text-align: left;
+  }
+  .fifthSection {
+    margin: 200px 0 0;
+  }
+  .fifthSection .atas-satu {
+    background-color: transparent;
+    background-image: url("../images/bg-section-top-desktop-2.svg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 156px;
+  }
+  .fifthSection .bawah-satu {
+    background-color: transparent;
+    background-image: url("../images/bg-section-bottom-desktop-2.svg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 39px;
+  }
+  .fifthSection .conten {
+    padding-inline: 50px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .fifthSection .conten .kanan h1 {
+    font-family: var(--pp);
+    font-weight: 700;
+    font-size: 3rem;
+    color: #000;
+    text-align: left;
+  }
+  .fifthSection .conten .kanan p {
+    text-align: left;
+    width: 85%;
+    color: #00252e;
+    font-family: var(--op);
+    font-weight: 400;
+    width: 80%;
+    font-size: 1.1rem;
+  }
+  .fifthSection .conten .kiri {
+    width: 100%;
+  }
+  .fifthSection .conten .kiri img {
+    width: 100%;
+    height: 100%;
+  }
+  .fifthSection h1.tombolTitle {
+    margin: 0 auto 20px;
+    font-size: 3rem;
+  }
+  .fifthSection button {
+    width: 30%;
+    font-size: 1.2rem;
+    margin: 40px auto 0;
+  }
+  footer {
+    margin-top: 100px;
+  }
+  footer .gambar {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("../images/bg-footer-top-desktop.svg");
+    height: 140px;
+    width: 100%;
+    margin-bottom: -50px;
+  }
+  footer .contain {
+    margin-top: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding-top: 70px;
+    text-align: left;
+  }
+  footer .contain .kanan {
+    width: 40%;
+  }
+  footer .contain .kanan .logoPng {
+    width: 58%;
+  }
+  footer .contain .kanan p.description {
+    font-family: var(--op);
+    font-weight: 400;
+    color: azure;
+    margin-block: 30px 50px;
+  }
+  footer .contain .kanan p.phone,
+  footer .contain .kanan p.email {
+    margin-top: 30px;
+    color: white;
+    font-weight: 400;
+    font-family: var(--op);
+  }
+  footer .contain .kanan p.phone img,
+  footer .contain .kanan p.email img {
+    margin-right: 25px;
+  }
+  footer .contain .kanan p:last-child {
+    margin-top: 30px;
+  }
+  footer .contain .kiri {
+    width: 40%;
+  }
+  footer .contain .kiri p {
+    margin-top: 30px;
+    width: 80%;
+    text-align: justify;
+  }
+  footer .contain .kiri input {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    height: 50px;
+  }
+  footer .contain .kiri button {
+    margin-top: 30px;
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
